@@ -1,0 +1,18 @@
+.contact-tabs{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+.contact-tabs-nav{
+    display:flex;
+    flex-direction: row;
+    width:2.5vw;
+    height:2.5vw;
+    
+    margin:.5em;
+        img{
+            width:2.5vw;
+            height:2.5vw;
+        }
+}

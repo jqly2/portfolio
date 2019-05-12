@@ -1,0 +1,10 @@
+.about{
+    .about-nav{
+        display:flex;
+        flex-direction: row;
+        .about-tabs-nav{
+            display:flex;
+            flex-direction: row;
+        }
+    }
+}
