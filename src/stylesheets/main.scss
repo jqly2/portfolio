@@ -2,6 +2,9 @@
 @import './components/_contact.scss';
 @import './components/_projects.scss';
 @import './components/_header.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$font-stack: 'Roboto', sans-serif;
 
 html {
   height: 100%;
@@ -19,7 +22,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-stack;
   justify-content: space-evenly ;
   position:absolute;
   font-size: calc(10px + 1.75vmin);

@@ -7,12 +7,20 @@
 .contact-tabs-nav{
     display:flex;
     flex-direction: row;
-    width:2.5vw;
-    height:2.5vw;
+    width:3.1vw;
+    height:3.1vw;
     
     margin:.5em;
         img{
-            width:2.5vw;
-            height:2.5vw;
+            width:3vw;
+            height:3vw;
+        }
+        img:hover{
+            border: 2px solid black;
+            
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
         }
 }

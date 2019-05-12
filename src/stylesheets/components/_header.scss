@@ -1,12 +1,39 @@
 .header{
-  line-height: 1.5em;
+  margin-left: 4em;
+  line-height: 2.85em;
+  text-align: left;
+  h1,h3,p{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid black; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite,
+  }
   h1{
-    font-size:2.5em;
+    font-size:2.0em;
+    animation-delay:-2s
   }
   h3{
     font-size:1em;
+    animation-delay: -1s;
   }
   p{
     font-weight:bold;
+    // animation-delay: 8s;
   }
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100%}
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
 }
