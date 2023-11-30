@@ -1,0 +1,29 @@
+@tailwind base;
+@layer base {
+        html {
+            @apply font-lexend
+        }
+}
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+    .dark {
+        --tw-bg-opacity: 1 ;
+        background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+        color: #fff;
+    }
+}
+
+.cardItem {
+    margin-top: 2em;
+}
+
+.cardItem button {
+    min-height: 75vh;
+    margin-bottom: 4em;
+}
+
+.cardItem hr {
+    margin-top: 4em;
+}

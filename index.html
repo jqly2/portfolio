@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Web Developer, Jonathan Ly">
+    <meta name="keywords" content="Web Developer, Frontend Developer, Frontend Engineer, Web Engineer, Portfolio">
+    <meta name="author" content="Jonathan Ly">
+
+    <!-- Open Graph meta tags for better social media sharing -->
+    <meta property="og:title" content="Hello there.">
+    <meta property="og:description" content="Portfolio of Web Developer, Jonathan Ly">
+    <meta property="og:image" content="url-to-your-image.jpg">
+    <meta property="og:url" content="http://www.jonathanly.org">
+    <meta name="og:site_name" content="Jonathan Ly">
+
+    <title>Jonathan Ly</title>
+
+    <link rel="canonical" href="http://www.jonathanly.org">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="output.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(function(){
+            $("#includedHeader").load("components/header.html");
+            $("#includedMain").load("components/main.html");
+            $("#includedFooter").load("components/footer.html"); 
+        });
+    </script>
+</head>
+<body class="bg-gray-100 dark">
+    <div class="flex flex-col">
+
+        <div id="includedHeader"></div>
+        <main id="includedMain" class="min-h-screen"></main>
+        <div id="includedFooter"></div>
+        
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
