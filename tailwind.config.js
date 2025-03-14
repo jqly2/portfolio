@@ -10,6 +10,7 @@ module.exports = {
   theme: {
     darkMode: 'class',
     extend: {
+      flexDirection: ['responsive'], // Ensures responsive breakpoints are applied
       backgroundImage:{
           'link-light':"url('./img/link.png')",
           'link-dark':"url('./img/linkW.png')",
