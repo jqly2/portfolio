@@ -1,64 +1,131 @@
-<div class="flex flex-col mt-48 mb-12 items-center w-full h-full mx-auto">
-    <div id="title" class="flex flex-col items-center text-center animate-fade-in-up delay-200">
-        <h1 class="mb-2 text-5xl font-extrabold tracking-tight md:text-6xl lg:text-7xl">
-            Hello there.
-        </h1>
-        <h1 class="mb-2 text-5xl font-extrabold tracking-tight md:text-6xl lg:text-7xl">
-            I am Jonathan.
-        </h1>
-        <h1 class="mb-6 text-5xl font-extrabold tracking-tight md:text-6xl lg:text-7xl">
-            I create websites.
-        </h1>
-        <h3 class="w-3/4 font-lexend text-lg font-normal text-gray-700 dark:text-gray-300 lg:text-xl">
-            I also have many different side projects and interests in gaming and tabletop.
-        </h3>
+<div class="flex flex-col mt-48 item-center w-full h-full mx-auto mr-4">
+  <div id="title" class="flex flex-1 w-full flex-col content-center items-center">
+    <div class="flex-1"></div>
+    <div class="flex flex-col items-center w-full">
+      <h1
+        class="flex-1 mb-1 text-4xl text-center font-extrabold leading-none tracking-tight
+               md:text-5xl lg:text-6xl text-gray-900 dark:text-gray-100">
+        Hello there.
+      </h1>
+      <h1
+        class="flex-1 mb-1 text-4xl text-center font-extrabold leading-none tracking-tight
+               md:text-5xl lg:text-6xl text-gray-900 dark:text-gray-100">
+        Name's Jonathan.
+      </h1>
+      <h3
+        class="w-3/4 flex-inital font-lexend text-center mb-6 text-lg font-normal
+               text-gray-600 dark:text-gray-400 lg:text-xl sm:px-16 xl:px-48">
+        I also have many different side projects and interest in gaming and tabletop.
+      </h3>
     </div>
-</div>
-<div class="container mx-auto px-4 w-full mb-12">
-    <div class="flex flex-nowrap sm:flex-wrap 2xl:flex-nowrap flex-col sm:flex-row justify-center items-center gap-4 mx-auto">
-        <!-- Spell Compendium -->
-        <section class="group cardItem flex flex-col max-w-lg h-full w-full rounded-lg overflow-hidden shadow-lg bg-white dark:bg-gray-800 hover:scale-105">
-            <div class="cardInfo p-6 text-center">
-                <a href="https://jqly2.github.io/dndAPI/spell"
-                   class="text-2xl font-bold text-indigo-700 hover:text-blue-400">
-                    Spell Compendium
-                </a>
-                <p class="text-gray-600 dark:text-gray-400 mt-2">
-                    A curated library of spells for the latest edition of Dungeons and Dragons.
-                </p>
-            </div>
-            <a href="https://jqly2.github.io/dndAPI/spell"
-               class="w-full bg-cover bg-center bg-no-repeat bg-spell-gif h-40 opacity-30 group-hover:opacity-100 transition-opacity duration-300 "></a>
-        </section>
+    <div class="flex-1"></div>
+  </div>
 
-        <!-- Eureka Investment -->
-        <section class="group cardItem flex flex-col max-w-lg h-full w-full rounded-lg overflow-hidden shadow-lg bg-white dark:bg-gray-800 hover:scale-105">
-            <div class="cardInfo p-6 text-center">
-                <a href="https://www.eurekainv.com/"
-                   class="text-2xl font-bold text-indigo-700 hover:text-blue-400">
-                    Eureka Investment
-                </a>
-                <p class="text-gray-600 dark:text-gray-400 mt-2">
-                    A visual analytics tool for prime real estate based in the Bay Area.
-                </p>
-            </div>
-            <a href="https://www.eurekainv.com/"
-               class="w-full bg-cover bg-center bg-no-repeat bg-eureka-gif h-40 opacity-30 group-hover:opacity-100 transition-opacity duration-300"></a>
-        </section>
+  <div class="flex flex-1 flex-col w-full items-center mt-16">
 
-        <!-- Figure -->
-        <section class="group cardItem flex flex-col max-w-lg h-full w-full rounded-lg overflow-hidden shadow-lg bg-white dark:bg-gray-800 hover:scale-105">
-            <div class="cardInfo p-6 text-center">
-                <a href="https://figure-design.github.io/landing-page/"
-                   class="text-2xl font-bold text-indigo-700 hover:text-blue-400">
-                    Figure
-                </a>
-                <p class="text-gray-600 dark:text-gray-400 mt-2 h-12">
-                    An Architecture Firm based in San Francisco Bay Area.
-                </p>
+    <!-- GamescapeSF App -->
+    <section class="cardItem relative w-1/2 mb-12">
+      <a href="https://www.gamescapesf.store/"
+         class="group block relative w-full h-64 overflow-hidden rounded-lg shadow-lg">
+        <!-- background -->
+        <div
+          class="absolute inset-0 bg-cover bg-center opacity-30 group-hover:opacity-100
+                 bg-gamescape-app-static group-hover:bg-gamescape-app-gif
+                 transition-opacity duration-500"></div>
+        <!-- overlay text -->
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center text-center px-4
+                 transition-opacity duration-500 group-hover:opacity-0">
+          <h3 class="text-2xl font-bold drop-shadow mb-2 text-gray-900 dark:text-gray-100">
+            GamescapeSF App
+          </h3>
+          <p class="text-sm max-w-md text-gray-700 dark:text-gray-300">
+            Built an internal Electron-based tool for staff to create and manage Firestore entries,
+            starting with reviews and expanding toward full CMS-like capabilities.
+          </p>
+        </div>
+      </a>
+    </section>
+
+    <hr class="w-3/4 border-t-2 border-gray-300 dark:border-gray-600 mt-8 mb-8">
+
+    <!-- GamescapeSF Store — About Page -->
+    <section class="cardItem relative w-1/2 mb-12">
+      <a href="https://www.gamescapesf.store/about"
+         class="group block relative w-full h-64 overflow-hidden rounded-lg shadow-lg">
+        <div
+          class="absolute inset-0 bg-cover bg-center opacity-30 group-hover:opacity-100
+                 bg-gamescape-about-static group-hover:bg-gamescape-about-gif
+                 transition-opacity duration-500"></div>
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center text-center px-4
+                 transition-opacity duration-500 group-hover:opacity-0">
+          <h3 class="text-2xl font-bold drop-shadow mb-2 text-gray-900 dark:text-gray-100">
+            GamescapeSF Store — About Page
+          </h3>
+          <p class="text-sm max-w-md text-gray-700 dark:text-gray-300">
+            Hybrid solution blending Square Web Builder with custom HTML/CSS/JS to deliver a responsive, polished About page tailored to brand needs.
+          </p>
+        </div>
+      </a>
+    </section>
+
+    <hr class="w-3/4 border-t-2 border-gray-300 dark:border-gray-600 mt-8 mb-8">
+
+    <!-- Spell Compendium -->
+    <section class="cardItem relative w-1/2 mb-12">
+      <a href="https://jqly2.github.io/dndAPI/spell"
+         class="group block relative w-full h-64 overflow-hidden rounded-lg shadow-lg">
+        <div
+          class="absolute inset-0 bg-cover bg-center opacity-30 group-hover:opacity-100
+                 bg-spell-static group-hover:bg-spell-gif
+                 transition-opacity duration-500"></div>
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center text-center px-4
+                 transition-opacity duration-500 group-hover:opacity-0">
+          <h3 class="text-2xl font-bold drop-shadow mb-2 text-gray-900 dark:text-gray-100">
+            Spell Compendium
+          </h3>
+          <p class="text-sm max-w-md text-gray-700 dark:text-gray-300">
+            Readable, searchable D&D 5e (2014) spell reference using a responsive card layout for fast lookup during play.
+          </p>
+        </div>
+      </a>
+    </section>
+
+    <hr class="w-3/4 border-t-2 border-gray-300 dark:border-gray-600 mt-8 mb-8">
+
+    <!-- Eureka Investment -->
+    <section class="cardItem relative w-1/2 mb-12">
+      <a href="https://www.eurekainv.com/"
+         class="group block relative w-full h-64 overflow-hidden rounded-lg shadow-lg">
+        <div
+          class="absolute inset-0 bg-cover bg-center opacity-30 group-hover:opacity-100
+                 bg-eureka-static group-hover:bg-eureka-gif
+                 transition-opacity duration-500"></div>
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center text-center px-4
+                 transition-opacity duration-500 group-hover:opacity-0">
+          <h3 class="text-2xl font-bold drop-shadow mb-2 text-gray-900 dark:text-gray-100">
+            Eureka Investment
+          </h3>
+          <p class="text-sm max-w-md text-gray-700 dark:text-gray-300">
+            Visualized real estate data on an interactive Google Map to help investors evaluate properties faster.
+          </p>
+        </div>
+      </a>
+    </section>
+
+        <hr class="w-3/4 border-t-2 border-grey-500 mt-8 mb-8">
+
+        <section class="cardItem flex flex-col flex-1 w-1/2">
+            <div class="cardInfo flex-1 text-center">
+                <a href="https://figure-design.github.io/landing-page/" class="underline underline-offset-2 text-2xl font-bold mt-8 text-indigo-700 hover:text-blue-300">Figure</a>
+                <p class="text-gray-600 mb-8">An Architecture Firm based in San Francisco</p>
             </div>
-            <a href="https://figure-design.github.io/landing-page/"
-               class="w-full bg-cover bg-center bg-no-repeat bg-figure-gif h-40 opacity-30 group-hover:opacity-100 transition-opacity duration-300"></a>
+            <button class="flex-1 w-full bg-cover bg-center bg-no-repeat opacity-20 hover:opacity-100 bg-figure-static hover:bg-figure-gif">
+                <a href="https://figure-design.github.io/landing-page/" class="h-full flex items-center justify-center"></a>
+            </button>
         </section>
     </div>
 </div>
