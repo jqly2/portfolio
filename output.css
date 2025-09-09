@@ -768,8 +768,6 @@ html {
   margin-bottom: 3rem;
 }
 
-<<<<<<< HEAD
-=======
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -782,7 +780,6 @@ html {
   margin-bottom: 2rem;
 }
 
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -974,17 +971,12 @@ html {
   width: 100%;
 }
 
-<<<<<<< HEAD
-.max-w-lg {
-  max-width: 32rem;
-=======
 .max-w-md {
   max-width: 28rem;
 }
 
 .flex-1 {
   flex: 1 1 0%;
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
 }
 
 .flex-shrink {
@@ -2013,16 +2005,24 @@ html {
   background-image: url('./img/email.png');
 }
 
-.bg-eureka-gif {
-  background-image: url('https://i.gyazo.com/18ea089c4be31fe83254942525d729e1.gif');
+.bg-eureka-static {
+  background-image: url('./img/eureka-static.png');
 }
 
-.bg-figure-gif {
-  background-image: url('https://i.gyazo.com/414a7b29a13fa9f32fae8e417da30356.gif');
+.bg-figure-static {
+  background-image: url('./img/figure-static.png');
 }
 
 .bg-gamescape-app-static {
   background-image: url('./img/gamescape-app-static.png');
+}
+
+.bg-gamescape-about-static {
+  background-image: url('./img/gamescape-about-static.png');
+}
+
+.bg-spell-static {
+  background-image: url('./img/spell-static.png');
 }
 
 .bg-git-light {
@@ -2033,9 +2033,6 @@ html {
   background-image: url('./img/link.png');
 }
 
-.bg-spell-gif {
-  background-image: url('https://i.gyazo.com/b3f950299fc2ab09311973f5ae12d9af.gif');
-}
 
 .decoration-slice {
   -webkit-box-decoration-break: slice;
@@ -2163,13 +2160,6 @@ html {
   padding: 1rem;
 }
 
-<<<<<<< HEAD
-.p-6 {
-  padding: 1.5rem;
-}
-
-=======
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -2376,28 +2366,16 @@ html {
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity, 1));
-<<<<<<< HEAD
 }
 
 .text-gray-700 {
   --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
-=======
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
-}
-
-.text-gray-700 {
-  --tw-text-opacity: 1;
-<<<<<<< HEAD
-  color: rgb(67 56 202 / var(--tw-text-opacity, 1));
-=======
   color: rgb(55 65 81 / var(--tw-text-opacity, 1));
 }
 
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity, 1));
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
 }
 
 .text-white {
@@ -2458,13 +2436,6 @@ html {
 
 .opacity-30 {
   opacity: 0.3;
-<<<<<<< HEAD
-}
-
-.opacity-0 {
-  opacity: 0;
-=======
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
 }
 
 .bg-blend-normal {
@@ -2691,53 +2662,29 @@ html {
 
 .backdrop-blur {
   --tw-backdrop-blur: blur(8px);
-<<<<<<< HEAD
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-=======
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .backdrop-grayscale {
   --tw-backdrop-grayscale: grayscale(100%);
-<<<<<<< HEAD
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-=======
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .backdrop-invert {
   --tw-backdrop-invert: invert(100%);
-<<<<<<< HEAD
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-=======
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .backdrop-sepia {
   --tw-backdrop-sepia: sepia(100%);
-<<<<<<< HEAD
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-=======
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .backdrop-filter {
-<<<<<<< HEAD
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-=======
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .backdrop-filter-none {
-<<<<<<< HEAD
-  -webkit-backdrop-filter: none;
-=======
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
   backdrop-filter: none;
 }
 
@@ -2839,24 +2786,6 @@ html {
   forced-color-adjust: none;
 }
 
-<<<<<<< HEAD
-.animate-replace {
-  --tw-animate-composition: replace;
-  animation-composition: var(--tw-animate-composition);
-}
-
-.animate-add {
-  --tw-animate-composition: add;
-  animation-composition: var(--tw-animate-composition);
-}
-
-.animate-accumulate {
-  --tw-animate-composition: accumulate;
-  animation-composition: var(--tw-animate-composition);
-}
-
-=======
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
 .animate-normal {
   --tw-animate-direction: normal;
   animation-direction: var(--tw-animate-direction);
@@ -2999,31 +2928,10 @@ html {
   }
 }
 
-<<<<<<< HEAD
-.hover\:scale-105:hover {
-  --tw-scale-x: 1.05;
-  --tw-scale-y: 1.05;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-=======
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
 .hover\:font-bold:hover {
   font-weight: 700;
 }
 
-<<<<<<< HEAD
-.hover\:text-blue-400:hover {
-  --tw-text-opacity: 1;
-  color: rgb(96 165 250 / var(--tw-text-opacity, 1));
-}
-
-.hover\:opacity-100:hover {
-  opacity: 1;
-}
-
-=======
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
 .before\:hover\:text-center:hover::before {
   content: var(--tw-content);
   text-align: center;
@@ -3042,61 +2950,6 @@ html {
   text-align: center;
 }
 
-<<<<<<< HEAD
-.group:hover .group-hover\:opacity-100 {
-  opacity: 1;
-}
-
-@media (min-width: 640px) {
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
-  .sm\:flex-wrap {
-    flex-wrap: wrap;
-  }
-
-  .sm\:underline {
-    text-decoration-line: underline;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-}
-
-@media (min-width: 1536px) {
-  .\32xl\:flex-nowrap {
-    flex-wrap: nowrap;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .dark\:bg-gray-600 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(75 85 99 / var(--tw-bg-opacity, 1));
-  }
-
-  .dark\:bg-gray-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
-  }
-=======
 .group:hover .group-hover\:bg-eureka-gif {
   background-image: url('https://i.gyazo.com/18ea089c4be31fe83254942525d729e1.gif');
 }
@@ -3104,10 +2957,12 @@ html {
 .group:hover .group-hover\:bg-figure-gif {
   background-image: url('https://i.gyazo.com/414a7b29a13fa9f32fae8e417da30356.gif');
 }
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
 
 .group:hover .group-hover\:bg-gamescape-app-gif {
   background-image: url('https://i.gyazo.com/3d0dac5b9a9059036b015b536973c312.gif');
+}
+.group:hover .group-hover\:bg-gamescape-about-gif {
+  background-image: url('https://i.gyazo.com/05c39064fd08755a6f7d6d5f938c6fa3.gif');
 }
 
 .group:hover .group-hover\:bg-spell-gif {
@@ -3118,22 +2973,6 @@ html {
   opacity: 0;
 }
 
-<<<<<<< HEAD
-  .dark\:text-gray-300 {
-    --tw-text-opacity: 1;
-    color: rgb(209 213 219 / var(--tw-text-opacity, 1));
-  }
-
-  .dark\:text-gray-400 {
-    --tw-text-opacity: 1;
-    color: rgb(156 163 175 / var(--tw-text-opacity, 1));
-  }
-
-  @media (min-width: 1024px) {
-    .dark\:lg\:hover\:\[paint-order\:markers\]:hover {
-      paint-order: markers;
-    }
-=======
 .group:hover .group-hover\:opacity-100 {
   opacity: 1;
 }
@@ -3211,6 +3050,5 @@ html {
 
   .dark\:lg\:hover\:\[paint-order\:markers\]:hover:is(.dark *) {
     paint-order: markers;
->>>>>>> f81c784 (Updated with two recent projects and style changes.)
   }
 }
